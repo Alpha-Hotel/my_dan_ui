@@ -1,0 +1,49 @@
+.Map_marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.Map_SamMarker {
+    height: 75px;
+    width: 75px;
+    background-image: url('./samIcon.svg');
+    background-size: contain;
+    cursor: pointer;
+}
+.Map_AircraftMarker {
+    height: 75px;
+    width: 75px;
+    background-image: url('./jetIcon.svg');
+    background-size: contain;
+    cursor: pointer;
+}
+.Map_AircraftLabel {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Map_ThreatPopup {
+    background-color: blue;
+}
+
+.map-wrap {
+    position: relative;
+    width: 100vw;
+    height: calc(70vh - 60px); 
+    /* height: 'fill-content'; */
+    /* flex: 1 */
+
+  }
+  
+  .map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    /* flex: 1 */
+
+  }
